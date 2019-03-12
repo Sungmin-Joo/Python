@@ -1,7 +1,7 @@
 import sendgrid
 from sendgrid.helpers.mail import Email,  Mail, Content
 
-API_KEY = 'SG.ywKWUHMCSgqQ1WdYnBNaSA.xxxxxxxxxxxxxxxxxxxxxxxxxxxxx-xxxxxxxxxxxxx'
+API_KEY = 'SG.xxxxxxxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxx-xxxxxxxxxxxxx'
 #API_KEY format is 'XX.xxxxxxx~~-xxxxxxxxxxxxx'
 sg = sendgrid.SendGridAPIClient(apikey=API_KEY)
 
@@ -36,14 +36,14 @@ b''
 Server: nginx
 Date: Tue, 12 Mar 2019 09:27:29 GMT
 Content-Type: text/plain; charset=utf-8
-Content-Length: 0
-Connection: close
-X-Message-Id: HR3UxtslRXCR81BF0x6twQ
-Access-Control-Allow-Origin: https://sendgrid.api-docs.io
-Access-Control-Allow-Methods: POST
-Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl
-Access-Control-Max-Age: 600
-X-No-CORS-Reason: https://sendgrid.com/docs/Classroom/Basics/API/cors.html
+Content-Length: x
+Connection: xxxx
+X-Message-Id: xxxxxx
+Access-Control-Allow-Origin: xxxxx
+Access-Control-Allow-Methods: xxxxx
+Access-Control-Allow-Headers: xxxxx
+Access-Control-Max-Age: xxxx
+X-No-CORS-Reason: xxxxx
 
 Done
 ----------------------------
