@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 if __name__ == '__main__':
     print('Func_called - main')
     Array = ['A',1,'B',2]
