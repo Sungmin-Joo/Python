@@ -1,18 +1,25 @@
 # -*- coding: utf-8 -*-
+import time
+import math
 if __name__ == '__main__':
     print('Func_called - main')
-    Array = ['A',1,'B',2]
-    for i in Array:
-        try:#point - A
-            int(i)
-            print(str(i)+ ' = int')
-        except:#point - B
-            print(i + ' = Not int')
-        '''
-        If variation is possible with int, part #point - A runs,
-        or part #point - B runs.
-        '''
-        
+    start = time.time()
+    n = int('1000000')
+    print(time.time() - start)
+    h = int(math.ceil(math.log(n,2)))
+    
+    start = time.time()
+    B = [0 for i in range(1000000)]
+    print(time.time() - start)
+    
+    start = time.time()
+    A = [0]*n
+    B = [0]*(1<<(h+1))
+    print(time.time() - start)
+    
+    
+    
+    
 else:
     print('Func_called - imported')
     
