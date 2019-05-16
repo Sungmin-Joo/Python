@@ -48,13 +48,13 @@ def Make_button(Frame):
             else:
                 temp_col = 0
         if(little_array[i] == 'Space'):
-            tkinter.Button(frame2,text = 'Space', overrelief="solid",command = key_func, width=5,repeatdelay=500, repeatinterval=100).grid(row=2,column = 11)
+            tkinter.Button(Frame,text = 'Space', overrelief="solid",command = key_func, width=5,repeatdelay=500, repeatinterval=100).grid(row=2,column = 11)
         elif(little_array[i] == 'Shift'):
-            tkinter.Button(frame2,text = 'Shift', overrelief="solid",command = key_func, width=5,repeatdelay=500, repeatinterval=100).grid(row=3,column = 11)
+            tkinter.Button(Frame,text = 'Shift', overrelief="solid",command = key_func, width=5,repeatdelay=500, repeatinterval=100).grid(row=3,column = 11)
         elif(little_array[i] == 'Erase'):
-            tkinter.Button(frame2,text = 'Erase', overrelief="solid",command = key_func, width=5,repeatdelay=500, repeatinterval=100).grid(row=1,column = 12)
+            tkinter.Button(Frame,text = 'Erase', overrelief="solid",command = key_func, width=5,repeatdelay=500, repeatinterval=100).grid(row=1,column = 12)
         else:
-            tkinter.Button(frame2,text = little_array[i] + '( '+ big_array[i] +' )', overrelief="solid",command = key_func, width=5,repeatdelay=500, repeatinterval=100).grid(row=temp_row,column = temp_col)
+            tkinter.Button(Frame,text = little_array[i] + '( '+ big_array[i] +' )', overrelief="solid",command = key_func, width=5,repeatdelay=500, repeatinterval=100).grid(row=temp_row,column = temp_col)
             temp_col += 1
         '''
         Create a button without declaring a variable and connect "key_func" to that button.
