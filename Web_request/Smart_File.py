@@ -21,10 +21,6 @@ def Read_file(root,filename):
 if __name__ == '__main__':
     print('Func_called - main')
     print(Find_dir("./"))
-    print(Find_dir_format("./",'.txt'))
-    text_str = "20 17:00 22:00"
-    Write_file("./","output.txt",text_str)
-    print(Read_file("./","output.txt"))
 else:
     print('Func_called - imported')
 '''
