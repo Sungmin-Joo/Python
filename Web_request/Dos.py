@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
 import requests
+url = 'http://www.q-net.or.kr/man001.do?gSite=Q&gId='
 while(1):
-    url = 'http://192.168.0.48'
     response = requests.get(url = url)
